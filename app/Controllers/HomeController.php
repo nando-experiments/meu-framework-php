@@ -8,11 +8,11 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $this->renderView('home/index', 'layouts/default');
+        $this->renderView('site.index', 'layouts.default');
     }
 
-    public function home()
+    public function contact()
     {
-        $this->renderView('home/index', 'layouts/default');
+        $this->renderView('site.contact', 'layouts.default');
     }
 }

@@ -15,12 +15,17 @@
         font-family: 'Raleway', sans-serif;
         font-weight: 300;
       }
+      *.disabled {
+        cursor: not-allowed;
+        pointer-events: none;
+      }
     </style>
   </head>
   <body>
     <main id="main" class="d-flex justify-content-center align-items-center h-100">
-      <div class="container-flud">
+      <div class="container-flud text-center">
         <?php $this->content() ?>
+        <?php require_once __DIR__ . "/../nav.phtml" ?>
       </div>
     </main>
   </body>

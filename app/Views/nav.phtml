@@ -1,0 +1,8 @@
+<ul class="nav justify-content-center mt-5">
+  <li class="nav-item">
+    <a class="nav-link <?= (parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) === '/' ? 'active disabled' : '') ?>" href="/">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link <?= (parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) === '/contact' ? 'active disabled' : '') ?>" href="/contact">Contact</a>
+  </li>
+</ul>

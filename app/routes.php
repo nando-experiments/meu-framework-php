@@ -1,5 +1,6 @@
 <?php
 
 return [
-    [ '/', 'HomeController@index' ]
+    [ '/', 'HomeController@index' ],
+    [ '/contact', 'HomeController@contact' ]
 ];

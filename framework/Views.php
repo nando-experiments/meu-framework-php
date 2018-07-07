@@ -11,8 +11,8 @@ class Views
 
     public function __construct($view, $layout)
     {
-        $this->viewPath = $view;
-        $this->layoutPath = $layout;
+        $this->viewPath = str_replace('.', '/', $view);
+        $this->layoutPath = str_replace('.', '/', $layout);
     }
 
     public function render()
