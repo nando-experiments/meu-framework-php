@@ -9,18 +9,15 @@
     "homepage": "https://nandomoreira.me",
     "license": "MIT",
     "authors": [
-        {
-            "name": "Fernando Moreira",
-            "email": "nandomoreira.me@gmail.com"
-        }
+        { "name": "Fernando Moreira", "email": "nandomoreira.me@gmail.com" }
     ],
     "require": {
-        "php": ">=7.1",
-        "symfony/http-foundation": "^4.1"
+        "php": ">=7.1"
     },
     "autoload": {
         "psr-4": {
-            "Framework\\": "src/framework"
+            "App\\": "app/",
+            "Framework\\": "framework/"
         }
     }
 }

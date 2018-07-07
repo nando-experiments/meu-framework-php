@@ -7,7 +7,7 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./:/var/www/app
+      - ./:/var/www/framework
       - ./nginx.conf:/etc/nginx/conf.d/default.conf
       - ./.runtime/nginx/logs:/var/log/nginx/
     links:
@@ -19,7 +19,7 @@ services:
     image: php:7-fpm
     container_name: PHP7
     volumes:
-      - ./:/var/www/app
+      - ./:/var/www/framework
 
   database:
     image: mariadb
