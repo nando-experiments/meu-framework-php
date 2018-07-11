@@ -1,23 +1,23 @@
 {
-    "name": "nandomoreira/meu-framework-php",
-    "description": "Criando meu próprio framework PHP do zero (ou quase)",
-    "keywords": [
-        "framework-php",
-        "meu-framework-php",
-        "microframework"
-    ],
-    "homepage": "https://nandomoreira.me",
-    "license": "MIT",
-    "authors": [
-        { "name": "Fernando Moreira", "email": "nandomoreira.me@gmail.com" }
-    ],
-    "require": {
-        "php": ">=7.1"
-    },
-    "autoload": {
-        "psr-4": {
-            "App\\": "app/",
-            "Framework\\": "framework/"
-        }
+  "name": "nandomoreira/meu-framework-php",
+  "description": "Criando meu próprio framework PHP do zero (ou quase)",
+  "keywords": [
+    "framework-php",
+    "meu-framework-php",
+    "microframework"
+  ],
+  "homepage": "https://nandomoreira.me",
+  "license": "MIT",
+  "authors": [
+    { "name": "Fernando Moreira", "email": "nandomoreira.me@gmail.com" }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Core\\": "core/"
     }
+  }
 }
